@@ -1,5 +1,6 @@
 body{
-	background-color: #8FA382;
+	background-size: cover;
+	background-repeat: no-repeat;
 	font-family: 'Dosis';
 	color: white;
 	display: block;
@@ -30,7 +31,7 @@ h1{
 
 /* for navigation*/
 .mainNav{
-				background-color: #DCCD98;
+				background-color: transparent;
 				position: sticky;
 				top: 0;
 				width: 100%;
