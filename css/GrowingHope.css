@@ -13,6 +13,14 @@ h1{
 	text-align: center;
 	margin-bottom: 10px; 
 
+h2{
+	font-family: 'Inconsolata', monospace;
+	font-size: 15px;
+	letter-spacing: 10px;
+	margin-left: 15px;
+	margin-right: 50px;
+}
+
 }
 #header {
 	font-size: 20pt;
@@ -97,21 +105,16 @@ float: left;
 }
 
 #text h2 {
-	font-size: 50px;
-	text-align: center;
-	padding-top: 2%;
-	padding-bottom: none;
-	margin: auto;
-
-}
-
-#text p {
+	font-family: 'Dosis';
 	font-size: 20px;
-	text-align: left;
-	margin: auto;
-	padding: 2%;
+	letter-spacing: 10px;
+	text-align: center;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	margin: none;
 
 }
+
 
 #text{
 	width: 60%;
@@ -120,7 +123,23 @@ float: left;
 	position: relative;
 	background-color: black;
 	background: rgba(0, 0, 0, 0.4);
-	padding-bottom: 2%;
-	padding-left: 2%;
+	padding: none;
+	
 
+}
+
+#links{
+	margin: auto;
+	width:30%;
+	padding-top: none;
+	padding-bottom: 5%;
+
+}
+
+#links p{
+	font-family: 'Nanum Gothic', sans-serif;
+	letter-spacing: 2px;
+	font-size:12px;
+	text-align:left;
+	padding-top:none;
 }
