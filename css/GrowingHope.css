@@ -1,6 +1,5 @@
 body{
-	background-size: cover;
-	background-repeat: no-repeat;
+	background-color: #8FA382;
 	font-family: 'Dosis';
 	color: white;
 	display: block;
@@ -8,10 +7,28 @@ body{
 	width: 100%;
 }
 
+.plant{
+	background-image: url("../images/plant.jpg");
+	background-size: cover;
+
+}
+
+.shovel{
+	background-image: url("../images/shovel.jpg");
+	background-size: cover;
+}
+
+.soil{
+	background-image: url("../images/soil.png");
+	background-size: cover; 
+}
+
+
 h1{
 	font-size: 40pt;
 	text-align: center;
 	margin-bottom: 10px; 
+}
 
 h2{
 	font-family: 'Inconsolata', monospace;
@@ -21,25 +38,20 @@ h2{
 	margin-right: 50px;
 }
 
-}
 #header {
-	font-size: 20pt;
+	font-size: 70pt;
 	text-align: center;
 	width: 100%;
 	z-index: -100;
 	position: relative;
+	margin-top: 50px;
 
 }
 
-.plant{
-	background-size: cover;
-
-}
 
 
 /* for navigation*/
 .mainNav{
-				background-color: transparent;
 				position: sticky;
 				top: 0;
 				width: 100%;
@@ -56,6 +68,10 @@ h2{
 				padding: 10px;
 
 			}
+
+.mainNav a:hover {
+	color: black;
+}
 
 .mainNav .icon{
 				display: none;
@@ -83,19 +99,40 @@ h2{
 					top: 0;
 				}
 			}
-/* for nav */
+
+
+
+/* who we are*/
 #mission{
-	position: relative;
+	/*position: relative;
 	top: 100px;
 	left: 0;
+	background-color:#8FA382;
+	margin: 0 auto;
+	padding: 30px;*/
+	width: 60%;
+	height: 60%;
+	margin: 0 auto;
+	position: relative;
+	background-color: #8FA382;
+	/*background: rgba(0, 0, 0, 0.4);*/
+	padding: none;
 
 }
 
 #mission p{	
-font-size: 15pt;
-float: left;
+
+font-family: 'Nanum Gothic', sans-serif;
+letter-spacing: 2px;
+font-size: 12pt;
+width: 60%;
+margin-top: 30px;
+margin:0 auto;
+
 }
+
 /* Contact Page */
+
 #text img{
 	margin-right: 10px;
 }
@@ -143,3 +180,26 @@ float: left;
 	text-align:left;
 	padding-top:none;
 }
+
+/*news*/
+
+#news{
+font-family: 'Nanum Gothic', sans-serif;
+letter-spacing: 2px;
+font-size: 12pt;
+width: 60%;
+margin-top: 30px;
+margin:center;
+margin-left: 45%;
+}
+
+
+
+
+
+
+
+
+
+
+
